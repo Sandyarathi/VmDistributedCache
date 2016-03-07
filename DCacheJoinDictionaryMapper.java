@@ -74,13 +74,13 @@ public class DCacheJoinDictionaryMapper  extends Mapper<LongWritable, Text, Text
 	public void map(Text key, Text value, Context context) throws IOException, InterruptedException {
 		// TODO: perform a map-side join between the word/part-of-speech from exercise 1 and the word/part-of-speech from the distributed cache file
 		String appendValue=null;	
-	       /*	if (translations.containsKey(key)){
+	       	if (translations.containsKey(key)){
 			appendValue= value.toString()+"|"+translations.get(key);
 			}
 			else{
 				appendValue=language+":N/A";
-			}*/
-		Configuration conf = context.getConfiguration();
+			}
+		/*Configuration conf = context.getConfiguration();
 		Path[] dataFile = DistributedCache.getLocalCacheFiles(conf);
 		for(Path path : dataFile){
 			if(dataFile.toString().endsWith("latin.txt")){
@@ -93,8 +93,8 @@ public class DCacheJoinDictionaryMapper  extends Mapper<LongWritable, Text, Text
 			}
 		}
 			for (String keyHash: translations.keySet()){
-			context.write(new Text("null"), new Text("null"));
-			//context.write(new Text(key), new Text(appendValue));
+			context.write(new Text("null"), new Text("null"));*/
+			context.write(new Text(key), new Text(appendValue));
 		}
 	      }
 
