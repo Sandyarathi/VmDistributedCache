@@ -28,17 +28,15 @@ public class DCacheJoinDictionaryDriver extends Configured implements Tool {
    }
    
    public int run(String[] args) throws Exception {
-	   if (args.length != 2) {
-		   System.err.println("usage: hadoop jar . . . -files <sidefile> <in> <out>");
-		   System.exit(1);
-	   }
-	  //DistributedCache.addCacheFile(new URI("/user/user01/LAB1/E2/DATA/latin.txt"), getConf());
-	   Job job = new Job(getConf(), "james dictionary");
-	   job.setJarByClass(DCacheJoinDictionaryDriver.class);
-	  job.setNumReduceTasks(0);
-	   job.setMapperClass(DCacheJoinDictionaryMapper.class);
-	   job.setReducerClass(DCacheJoinDictionaryReducer.class);
-	   //job.addCacheFile(new URI("/user/user01/LAB1/E2/DATA/latin.txt"));
+	    if (args.length != 2) {
+		    System.err.println("usage: hadoop jar . . . -files <sidefile> <in> <out>");
+		    System.exit(1);
+	    }
+	    Job job = new Job(getConf(), "james dictionary");
+	    job.setJarByClass(DCacheJoinDictionaryDriver.class);
+	    job.setNumReduceTasks(0);
+	    job.setMapperClass(DCacheJoinDictionaryMapper.class);
+	    job.setReducerClass(DCacheJoinDictionaryReducer.class);
         job.setOutputKeyClass(Text.class);
         job.setOutputValueClass(Text.class);
         job.setInputFormatClass(KeyValueTextInputFormat.class);
