@@ -32,9 +32,7 @@ public class DCacheJoinDictionaryMapper  extends Mapper<Text, Text, Text, Text> 
 		   dataFile = context.getLocalCacheFiles();
 		   for (Path eachPath : dataFile) {
 			   fileName = eachPath.getName().toString().trim();
-			   System.out.println("fileName : "+fileName);
 			   language = fileName.substring(0,fileName.length()-4);
-			   System.out.println("language: "+ language);
 			   createLanguageFileHashMap(eachPath);
 		   }
 		} catch(IOException e){
@@ -54,18 +52,18 @@ public class DCacheJoinDictionaryMapper  extends Mapper<Text, Text, Text, Text> 
 			   if(!(strLineRead.toString().charAt(0)=='#') && (strLineRead.toString().indexOf('['))>0){
 				   String[] lineSplit = strLineRead.split("\t");
 				   if(lineSplit.length!=0 && lineSplit.length!=1 ){
-					System.out.println("length:"+lineSplit.length);   
 					String englishWord = lineSplit[0];
-					String partsOfSpeech = lineSplit[1].substring(lineSplit[1].lastIndexOf('[')+1,lineSplit[1].length()-1);
-			        String translations= lineSplit[1].substring(0,lineSplit[1].lastIndexOf('[') );
-			        if(valid(partsOfSpeech)){
-	                    String key= englishWord + " : ["+partsOfSpeech+"]";
-	                    String value = language+ ":"+translations;
-	                    System.out.println("key: "+key);
-	                    System.out.println("Value: "+ value);
-	                    contruct(key, value);
-	                    //translations.put(key,value);
-                	}
+					if(lineSplit[1].indexOf('[')>0){
+	
+						String partsOfSpeech = lineSplit[1].substring(lineSplit[1].lastIndexOf('[')+1,lineSplit[1].length()-1);
+				      	 	String translationValues= lineSplit[1].substring(0,lineSplit[1].lastIndexOf('[') );
+					        if(valid(partsOfSpeech)){
+	                   				 String key= englishWord + " : ["+partsOfSpeech+"]";
+	                   				//String value = language+ ":"+translations;
+	                   				 construct(key, translationValues);
+	                   				 //translations.put(key,value);
+                				}
+					}
 
 			        /*String[] splitValue=lineSplit[1].toString().split("\\[");
            	        if(splitValue.length!=0 && splitValue.length!=1 ){
@@ -91,13 +89,17 @@ public class DCacheJoinDictionaryMapper  extends Mapper<Text, Text, Text, Text> 
 		 brReader.close();
 	}
 	private void construct(String key, String value){
+		System.out.println("Construct key: "+key);
+		System.out.println("Construct Value:"+value);
 		if(translations.containsKey(key)){
+			System.out.println("<<Duplicate key!!>>");
 			String currentValue = translations.get(key);
 			currentValue+=", ";
 			currentValue+=value;
 			translations.put(key, currentValue);
 		}
-		translations.put(key, value);
+		else
+			translations.put(key, language+":"+value);
 		
 
 	}

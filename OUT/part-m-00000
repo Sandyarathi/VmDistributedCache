@@ -503,7 +503,7 @@ adventure : [Noun]	french:N/A | german:Abenteuer | italian:N/A | portuguese:N/A 
 adverb : [Noun]	french:N/A | german:Adverb | italian:N/A | portuguese:N/A | spanish:N/A | latin:N/A
 advertisement : [Noun]	french:N/A | german:N/A | italian:N/A | portuguese:proscriptio, -onis (f.) | spanish:proscriptio, -onis (f.) | latin:proscriptio, -onis (f.)
 advertisements : [Noun]	french:N/A | german:N/A | italian:N/A | portuguese:proscriptiones, -ium (f.) | spanish:proscriptiones, -ium (f.) | latin:proscriptiones, -ium (f.)
-advise : [Verb]	french:N/A | german:raten | italian:N/A | portuguese:moneo, monere, monui, monitum | spanish:moneo, monere, monui, monitum | latin:moneo, monere, monui, monitum
+advise : [Verb]	french:N/A | german:raten | italian:N/A | portuguese:moneo, monere, monui, monitum | spanish:moneo, monere, monui, monitum | latin:admoneo, -ere, -monui, -monitum, moneo, monere, monui, monitum
 advised : [Adjective]	french:N/A | german:N/A | italian:N/A | portuguese:monitus | spanish:monitus | latin:monitus
 afrika : [Noun]	french:N/A | german:Afrika | italian:N/A | portuguese:N/A | spanish:N/A | latin:N/A
 after : [Adverb]	french:N/A | german:N/A | italian:dopo | portuguese:N/A | spanish:N/A | latin:N/A
@@ -664,7 +664,7 @@ anatomical : [Noun]	french:N/A | german:N/A | italian:anatomico | portuguese:N/A
 anatomically : [Adverb]	french:N/A | german:N/A | italian:anatomico | portuguese:N/A | spanish:N/A | latin:N/A
 ancestor : [Noun]	french:N/A | german:Vorfahr | italian:N/A | portuguese:N/A | spanish:N/A | latin:N/A
 anchorage : [Noun]	french:N/A | german:Ankerplatz | italian:N/A | portuguese:N/A | spanish:N/A | latin:N/A
-and : [Conjunction]	french:N/A | german:N/A | italian:N/A | portuguese:-que (enclitic conjunction, suffix)  | spanish:-que (enclitic conjunction, suffix)  | latin:-que (enclitic conjunction, suffix) 
+and : [Conjunction]	french:N/A | german:N/A | italian:N/A | portuguese:-que (enclitic conjunction, suffix)  | spanish:-que (enclitic conjunction, suffix)  | latin:et, -que (enclitic conjunction, suffix) 
 and : [Preposition]	french:et | german:N/A | italian:N/A | portuguese:N/A | spanish:N/A | latin:N/A
 animal : [Noun]	french:N/A | german:Tier | italian:N/A | portuguese:N/A | spanish:N/A | latin:N/A
 anyway : [Adverb]	french:En tout cas, de toute facon | german:N/A | italian:N/A | portuguese:N/A | spanish:N/A | latin:N/A
@@ -1166,7 +1166,7 @@ building : [Noun]	french:ba^timent | german:N/A | italian:N/A | portuguese:N/A |
 builds : [Noun]	french:N/A | german:N/A | italian:edifici - costruzioni | portuguese:N/A | spanish:N/A | latin:N/A
 bulldozer : [Noun]	french:N/A | german:N/A | italian:bulldozer - ruspa meccanica | portuguese:N/A | spanish:N/A | latin:N/A
 bulletin : [Noun]	french:N/A | german:N/A | italian:bollettino | portuguese:N/A | spanish:N/A | latin:N/A
-but : [Conjunction]	french:N/A | german:N/A | italian:ma | portuguese:ac (diff. spelling of atque) | spanish:ac (diff. spelling of atque) | latin:ac (diff. spelling of atque)
+but : [Conjunction]	french:N/A | german:N/A | italian:ma | portuguese:ac (diff. spelling of atque) | spanish:ac (diff. spelling of atque) | latin:sed, atque (stronger form, "but mind you.."), ac (diff. spelling of atque)
 buxom : [Adjective]	french:N/A | german:u.ppig | italian:N/A | portuguese:N/A | spanish:N/A | latin:N/A
 buy : [Verb]	french:N/A | german:kaufen | italian:N/A | portuguese:N/A | spanish:N/A | latin:N/A
 buyer : [Noun]	french:N/A | german:Kaufer | italian:N/A | portuguese:N/A | spanish:N/A | latin:N/A
@@ -1699,7 +1699,7 @@ condemnatory : [Adjective]	french:N/A | german:N/A | italian:N/A | portuguese:da
 condemned : [Adjective]	french:N/A | german:N/A | italian:N/A | portuguese:damnatus | spanish:damnatus | latin:damnatus
 condemning : [Noun]	french:N/A | german:N/A | italian:N/A | portuguese:damnans, -ntis | spanish:damnans, -ntis | latin:damnans, -ntis
 conjuring : [Verb]	french:escamotage | german:N/A | italian:N/A | portuguese:N/A | spanish:N/A | latin:N/A
-contemplate : [Verb]	french:pre/voir | german:N/A | italian:N/A | portuguese:intueri | spanish:intueri | latin:intueri
+contemplate : [Verb]	french:pre/voir | german:N/A | italian:N/A | portuguese:intueri | spanish:intueri | latin:contemplari, intueri
 contemplates : [Verb]	french:envisage | german:N/A | italian:N/A | portuguese:N/A | spanish:N/A | latin:N/A
 contemplation : [Noun]	french:recueillement | german:N/A | italian:N/A | portuguese:contemplatio | spanish:contemplatio | latin:contemplatio
 contemplations : [Noun]	french:me/ditations | german:N/A | italian:N/A | portuguese:N/A | spanish:N/A | latin:N/A
@@ -1709,16 +1709,16 @@ contemporaneously : [Adverb]	french:en me^me temps que  | german:N/A | italian:N
 contemporaries : [Adjective]	french:de la me^me ge/ne/ration | german:N/A | italian:N/A | portuguese:N/A | spanish:N/A | latin:N/A
 contemporaries : [Noun]	french:contemporains | german:N/A | italian:N/A | portuguese:N/A | spanish:N/A | latin:N/A
 contemporary : [Adjective]	french:contemporain | german:N/A | italian:N/A | portuguese:aequalis | spanish:aequalis | latin:aequalis
-contempt : [Noun]	french:de/dain | german:N/A | italian:N/A | portuguese:fastidium | spanish:fastidium | latin:fastidium
-contemptible : [Adjective]	french:me/prisable | german:N/A | italian:N/A | portuguese:turpis | spanish:turpis | latin:turpis
+contempt : [Noun]	french:de/dain | german:N/A | italian:N/A | portuguese:fastidium | spanish:fastidium | latin:contemptus, fastidium
+contemptible : [Adjective]	french:me/prisable | german:N/A | italian:N/A | portuguese:turpis | spanish:turpis | latin:abiectus, contemnendus, contemptus, turpis
 contemptibly : [Adverb]	french:avec me/pris | german:N/A | italian:N/A | portuguese:N/A | spanish:N/A | latin:N/A
 contemptuous : [Adjective]	french:me/prisant | german:N/A | italian:N/A | portuguese:N/A | spanish:N/A | latin:N/A
 contemptuously : [Adverb]	french:avec me/pris | german:N/A | italian:N/A | portuguese:N/A | spanish:N/A | latin:N/A
-contend : [Verb]	french:disputer | german:N/A | italian:N/A | portuguese:decernere | spanish:decernere | latin:decernere
+contend : [Verb]	french:disputer | german:N/A | italian:N/A | portuguese:decernere | spanish:decernere | latin:certare, contendere, decernere
 contender : [Noun]	french:concurrent | german:N/A | italian:N/A | portuguese:N/A | spanish:N/A | latin:N/A
 contenders : [Noun]	french:concurrents | german:N/A | italian:N/A | portuguese:N/A | spanish:N/A | latin:N/A
 contending : [Adjective]	french:oppose/es | german:N/A | italian:N/A | portuguese:N/A | spanish:N/A | latin:N/A
-contends : [Verb]	french:lutte | german:N/A | italian:N/A | portuguese:decernit | spanish:decernit | latin:decernit
+contends : [Verb]	french:lutte | german:N/A | italian:N/A | portuguese:decernit | spanish:decernit | latin:certat, decernit
 content : [Adjective]	french:satisfait | german:N/A | italian:N/A | portuguese:contentus | spanish:contentus | latin:contentus
 content : [Verb]	french:satisfaire | german:N/A | italian:N/A | portuguese:N/A | spanish:N/A | latin:N/A
 contented : [Adjective]	french:satisfait | german:N/A | italian:N/A | portuguese:contentus | spanish:contentus | latin:contentus
@@ -1730,14 +1730,14 @@ contentious : [Adjective]	french:querelleur | german:N/A | italian:N/A | portugu
 contentment : [Noun]	french:contentement | german:N/A | italian:N/A | portuguese:animus contentus | spanish:animus contentus | latin:animus contentus
 contents : [Noun]	french:table de matie\res | german:N/A | italian:N/A | portuguese:quod in libro continetur | spanish:quod in libro continetur | latin:quod in libro continetur
 conterminous : [Adjective]	french:N/A | german:N/A | italian:N/A | portuguese:confinis | spanish:confinis | latin:confinis
-contest : [Noun]	french:concours | german:N/A | italian:N/A | portuguese:contentio | spanish:contentio | latin:contentio
+contest : [Noun]	french:concours | german:N/A | italian:N/A | portuguese:contentio | spanish:contentio | latin:certamen, certatio, contentio
 contest : [Verb]	french:contester | german:N/A | italian:N/A | portuguese:contendere | spanish:contendere | latin:contendere
 contestant : [Noun]	french:concurrent | german:N/A | italian:N/A | portuguese:N/A | spanish:N/A | latin:N/A
-context : [Noun]	french:N/A | german:N/A | italian:N/A | portuguese:ratio verborum | spanish:ratio verborum | latin:ratio verborum
+context : [Noun]	french:N/A | german:N/A | italian:N/A | portuguese:ratio verborum | spanish:ratio verborum | latin:argumentum, ratio verborum
 contexts : [Noun]	french:N/A | german:N/A | italian:N/A | portuguese:argumenti | spanish:argumenti | latin:argumenti
-contiguity : [Noun]	french:N/A | german:N/A | italian:N/A | portuguese:vicinitas | spanish:vicinitas | latin:vicinitas
-contiguous : [Adjective]	french:N/A | german:N/A | italian:N/A | portuguese:continens | spanish:continens | latin:continens
-continence : [Noun]	french:N/A | german:N/A | italian:N/A | portuguese:temperantia | spanish:temperantia | latin:temperantia
+contiguity : [Noun]	french:N/A | german:N/A | italian:N/A | portuguese:vicinitas | spanish:vicinitas | latin:propinquitas, vicinitas
+contiguous : [Adjective]	french:N/A | german:N/A | italian:N/A | portuguese:continens | spanish:continens | latin:confinis, continens
+continence : [Noun]	french:N/A | german:N/A | italian:N/A | portuguese:temperantia | spanish:temperantia | latin:continentia, temperantia
 continent : [Adjective]	french:N/A | german:N/A | italian:N/A | portuguese:castus | spanish:castus | latin:castus
 continent : [Noun]	french:N/A | german:N/A | italian:N/A | portuguese:continens | spanish:continens | latin:continens
 cookie : [Noun]	french:N/A | german:N/A | italian:N/A | portuguese:crustulum, -i (n.) | spanish:crustulum, -i (n.) | latin:crustulum, -i (n.)
@@ -2809,7 +2809,7 @@ girlfriend : [Noun]	french:N/A | german:N/A | italian:fidanzata | portuguese:N/A
 girlfriends : [Noun]	french:N/A | german:N/A | italian:fidanzate | portuguese:N/A | spanish:N/A | latin:N/A
 give : [Verb]	french:N/A | german:N/A | italian:dare | portuguese:N/A | spanish:N/A | latin:N/A
 glorious : [Adjective]	french:N/A | german:N/A | italian:N/A | portuguese:decorum | spanish:decorum | latin:decorum
-go : [Verb]	french:aller | german:N/A | italian:andare | portuguese:eo, ire, ii, itum | spanish:eo, ire, ii, itum | latin:eo, ire, ii, itum
+go : [Verb]	french:aller | german:N/A | italian:andare | portuguese:eo, ire, ii, itum | spanish:eo, ire, ii, itum | latin:Ite, eo, ire, ii, itum
 goal : [Noun]	french:objectif | german:N/A | italian:meta | portuguese:N/A | spanish:N/A | latin:N/A
 goalkeeper : [Noun]	french:N/A | german:N/A | italian:PORTTIERE | portuguese:N/A | spanish:N/A | latin:N/A
 goat : [Noun]	french:N/A | german:N/A | italian:capra | portuguese:N/A | spanish:N/A | latin:N/A
@@ -4041,24 +4041,24 @@ medievalists : [Noun]	french:me/die/valistes | german:N/A | italian:N/A | portug
 mediocre : [Adjective]	french:me/diocre | german:N/A | italian:mediòcre | portuguese:N/A | spanish:N/A | latin:N/A
 mediocrities : [Noun]	french:me/diocrite/s | german:N/A | italian:N/A | portuguese:N/A | spanish:N/A | latin:N/A
 mediocrity : [Noun]	french:me/diocrite/ | german:N/A | italian:N/A | portuguese:N/A | spanish:N/A | latin:N/A
-meditate : [Verb]	french:me/diter | german:N/A | italian:meditare | portuguese:meditari | spanish:meditari | latin:meditari
+meditate : [Verb]	french:me/diter | german:N/A | italian:meditare | portuguese:meditari | spanish:meditari | latin:cogitare, commentari, meditari
 meditates : [Verb]	french:me/dite | german:N/A | italian:N/A | portuguese:cogitat | spanish:cogitat | latin:cogitat
-meditation : [Noun]	french:me/ditation | german:N/A | italian:N/A | portuguese:meditatio | spanish:meditatio | latin:meditatio
+meditation : [Noun]	french:me/ditation | german:N/A | italian:N/A | portuguese:meditatio | spanish:meditatio | latin:cogitatio, commentatio, meditatio
 meditations : [Noun]	french:me/ditations | german:N/A | italian:N/A | portuguese:N/A | spanish:N/A | latin:N/A
 meditative : [Adjective]	french:me/ditatif | german:N/A | italian:N/A | portuguese:in cognitatione defixus | spanish:in cognitatione defixus | latin:in cognitatione defixus
 meditatively : [Adjective]	french:d'un air me/ditatif | german:N/A | italian:N/A | portuguese:N/A | spanish:N/A | latin:N/A
 medium : [Noun]	french:me/dium | german:N/A | italian:N/A | portuguese:N/A | spanish:N/A | latin:N/A
-medlar : [Noun]	french:ne\fle | german:N/A | italian:N/A | portuguese:mespilus | spanish:mespilus | latin:mespilus
-medley : [Noun]	french:me/lange | german:N/A | italian:N/A | portuguese:farrago | spanish:farrago | latin:farrago
+medlar : [Noun]	french:ne\fle | german:N/A | italian:N/A | portuguese:mespilus | spanish:mespilus | latin:mespilum, mespilus
+medley : [Noun]	french:me/lange | german:N/A | italian:N/A | portuguese:farrago | spanish:farrago | latin:conluvies, conluvio, farrago
 medleys : [Noun]	french:me/langes | german:N/A | italian:N/A | portuguese:N/A | spanish:N/A | latin:N/A
 medulla : [Noun]	french:me/dulle | german:N/A | italian:N/A | portuguese:N/A | spanish:N/A | latin:N/A
 medusae : [Noun]	french:me/duses | german:N/A | italian:N/A | portuguese:N/A | spanish:N/A | latin:N/A
-meek : [Adjective]	french:doux | german:N/A | italian:N/A | portuguese:verecundus | spanish:verecundus | latin:verecundus
+meek : [Adjective]	french:doux | german:N/A | italian:N/A | portuguese:verecundus | spanish:verecundus | latin:demissus, modestus, verecundus
 meekly : [Adjective]	french:avec soumission | german:N/A | italian:N/A | portuguese:N/A | spanish:N/A | latin:N/A
-meekly : [Adverb]	french:N/A | german:N/A | italian:N/A | portuguese:modeste | spanish:modeste | latin:verecunde
-meekness : [Noun]	french:soumission | german:N/A | italian:N/A | portuguese:verecundia | spanish:verecundia | latin:verecundia
+meekly : [Adverb]	french:N/A | german:N/A | italian:N/A | portuguese:modeste | spanish:modeste | latin:modeste, verecunde
+meekness : [Noun]	french:soumission | german:N/A | italian:N/A | portuguese:verecundia | spanish:verecundia | latin:animus demissus, modestia, verecundia
 meerschaum : [Noun]	french:pipe en e/cume de mer | german:N/A | italian:N/A | portuguese:N/A | spanish:N/A | latin:N/A
-meeting : [Noun]	french:N/A | german:N/A | italian:N/A | portuguese:conventus | spanish:conventus | latin:conventus
+meeting : [Noun]	french:N/A | german:N/A | italian:N/A | portuguese:conventus | spanish:conventus | latin:concursus, congressio, conventus
 megabyte : [Noun]	french:me/ga-octet | german:N/A | italian:N/A | portuguese:N/A | spanish:N/A | latin:N/A
 megabytes : [Noun]	french:me/ga-octets | german:N/A | italian:N/A | portuguese:N/A | spanish:N/A | latin:N/A
 megacycle : [Noun]	french:me/gacycle | german:N/A | italian:N/A | portuguese:N/A | spanish:N/A | latin:N/A
@@ -4525,7 +4525,7 @@ none : [Pronoun]	french:N/A | german:N/A | italian:nessuno | portuguese:N/A | sp
 nonsense : [Pronoun]	french:N/A | german:N/A | italian:assurdita\ | portuguese:N/A | spanish:N/A | latin:N/A
 nonskid : [Adjective]	french:N/A | german:N/A | italian:non sdrucciolevole | portuguese:N/A | spanish:N/A | latin:N/A
 nonstop : [Adjective]	french:N/A | german:N/A | italian:continuo, diretto(as train or plane flight) | portuguese:N/A | spanish:N/A | latin:N/A
-nor : [Conjunction]	french:N/A | german:N/A | italian:N/A | portuguese:nec... nec... "neither... nor..." | spanish:nec... nec... "neither... nor..." | latin:nec... nec... "neither... nor..."
+nor : [Conjunction]	french:N/A | german:N/A | italian:N/A | portuguese:nec... nec... "neither... nor..." | spanish:nec... nec... "neither... nor..." | latin:nec, nec... nec... "neither... nor..."
 nose : [Noun]	french:N/A | german:N/A | italian:naso | portuguese:N/A | spanish:N/A | latin:N/A
 not : [Preposition]	french:N/A | german:N/A | italian:non | portuguese:N/A | spanish:N/A | latin:N/A
 nothing : [Noun]	french:N/A | german:N/A | italian:N/A | portuguese:nihil (indecl.) | spanish:nihil (indecl.) | latin:nihil (indecl.)
@@ -4690,7 +4690,7 @@ optimize : [Verb]	french:N/A | german:optimieren | italian:N/A | portuguese:N/A 
 optimized : [Verb]	french:N/A | german:optimiert | italian:N/A | portuguese:N/A | spanish:N/A | latin:N/A
 optional : [Adjective]	french:N/A | german:optional | italian:N/A | portuguese:N/A | spanish:N/A | latin:N/A
 options : [Noun]	french:N/A | german:Optionen | italian:N/A | portuguese:N/A | spanish:N/A | latin:N/A
-or : [Conjunction]	french:N/A | german:N/A | italian:N/A | portuguese:aut... aut ("either... or...") | spanish:aut... aut ("either... or...") | latin:aut... aut ("either... or...")
+or : [Conjunction]	french:N/A | german:N/A | italian:N/A | portuguese:aut... aut ("either... or...") | spanish:aut... aut ("either... or...") | latin:aut, aut... aut ("either... or...")
 orange : [Noun]	french:orange | german:N/A | italian:N/A | portuguese:N/A | spanish:N/A | latin:N/A
 oranges : [Noun]	french:oranges | german:N/A | italian:N/A | portuguese:N/A | spanish:N/A | latin:N/A
 orbit : [Noun]	french:orbite | german:N/A | italian:N/A | portuguese:N/A | spanish:N/A | latin:N/A
@@ -5045,21 +5045,21 @@ powwow : [Noun]	french:assemble/e | german:N/A | italian:N/A | portuguese:N/A | 
 practicability : [Noun]	french:possibilite/ | german:N/A | italian:N/A | portuguese:N/A | spanish:N/A | latin:N/A
 practicable : [Adjective]	french:re/alisable | german:N/A | italian:N/A | portuguese:N/A | spanish:N/A | latin:N/A
 practical : [Adjective]	french:pratique | german:N/A | italian:pratico/a | portuguese:N/A | spanish:N/A | latin:N/A
-praise : [Verb]	french:N/A | german:N/A | italian:lodare | portuguese:lauda (command) | spanish:lauda (command) | latin:lauda (command)
+praise : [Verb]	french:N/A | german:N/A | italian:lodare | portuguese:lauda (command) | spanish:lauda (command) | latin:laudo, laudare, laudavi, laudatum, lauda (command)
 praised : [Adjective]	french:N/A | german:N/A | italian:N/A | portuguese:laudatus, -a, -um | spanish:laudatus, -a, -um | latin:laudatus, -a, -um
 praiser : [Noun]	french:N/A | german:N/A | italian:N/A | portuguese:laudator, -oris (m.) | spanish:laudator, -oris (m.) | latin:laudator, -oris (m.)
 praisers : [Noun]	french:N/A | german:N/A | italian:N/A | portuguese:laudatores, -ium (m.) | spanish:laudatores, -ium (m.) | latin:laudatores, -ium (m.)
 prawn : [Noun]	french:N/A | german:N/A | italian:gamberi | portuguese:N/A | spanish:N/A | latin:N/A
-pray : [Verb]	french:prier | german:N/A | italian:N/A | portuguese:rogare | spanish:rogare | latin:rogare
-prayer : [Noun]	french:prie\re | german:N/A | italian:N/A | portuguese:preces | spanish:preces | latin:preces
+pray : [Verb]	french:prier | german:N/A | italian:N/A | portuguese:rogare | spanish:rogare | latin:orare, precari, rogare
+prayer : [Noun]	french:prie\re | german:N/A | italian:N/A | portuguese:preces | spanish:preces | latin:imploratio, precatio, preces
 prayerful : [Adjective]	french:N/A | german:N/A | italian:N/A | portuguese:supplex | spanish:supplex | latin:supplex
 prayers : [Noun]	french:prie\res | german:N/A | italian:N/A | portuguese:N/A | spanish:N/A | latin:N/A
 praying : [Adjective]	french:en prie\res | german:N/A | italian:N/A | portuguese:N/A | spanish:N/A | latin:N/A
-praying : [Noun]	french:prie\re | german:N/A | italian:N/A | portuguese:preces | spanish:preces | latin:preces
-preach : [Verb]	french:pre^cher | german:N/A | italian:N/A | portuguese:praedicare | spanish:praedicare | latin:praedicare
+praying : [Noun]	french:prie\re | german:N/A | italian:N/A | portuguese:preces | spanish:preces | latin:precatio, preces
+preach : [Verb]	french:pre^cher | german:N/A | italian:N/A | portuguese:praedicare | spanish:praedicare | latin:docere, orationem habere, praedicare
 preacher : [Noun]	french:pre/dicateur | german:N/A | italian:N/A | portuguese:praedicator | spanish:praedicator | latin:praedicator
 preachers : [Noun]	french:pre/dicateurs | german:N/A | italian:N/A | portuguese:N/A | spanish:N/A | latin:N/A
-preaches : [Verb]	french:prononce | german:N/A | italian:N/A | portuguese:praedica | spanish:praedica | latin:praedica
+preaches : [Verb]	french:prononce | german:N/A | italian:N/A | portuguese:praedica | spanish:praedica | latin:docet, orationem habet, praedica
 preachify : [Verb]	french:faire la morale | german:N/A | italian:N/A | portuguese:N/A | spanish:N/A | latin:N/A
 preaching : [Adjective]	french:pre^cheur | german:N/A | italian:N/A | portuguese:N/A | spanish:N/A | latin:N/A
 preaching : [Noun]	french:sermons | german:N/A | italian:N/A | portuguese:N/A | spanish:N/A | latin:N/A
@@ -5315,28 +5315,28 @@ radioecologist : [Noun]	french:N/A | german:Strahleno.kologe | italian:N/A | por
 radioecology : [Noun]	french:N/A | german:Strahleno.kologie | italian:N/A | portuguese:N/A | spanish:N/A | latin:N/A
 radiolarian : [Noun]	french:N/A | german:Radiolarium, Strahlentierchen | italian:N/A | portuguese:N/A | spanish:N/A | latin:N/A
 rapier : [Noun]	french:N/A | german:Florett, das | italian:N/A | portuguese:N/A | spanish:N/A | latin:N/A
-read : [Verb]	french:lire | german:N/A | italian:N/A | portuguese:recitare | spanish:recitare | latin:recitare
+read : [Verb]	french:lire | german:N/A | italian:N/A | portuguese:recitare | spanish:recitare | latin:legere, recitare
 readability : [Noun]	french:lisibilite/ | german:N/A | italian:N/A | portuguese:N/A | spanish:N/A | latin:N/A
 readable : [Adjective]	french:lisible | german:N/A | italian:N/A | portuguese:iucundus legenti | spanish:iucundus legenti | latin:iucundus legenti
-reader : [Noun]	french:lecteur | german:N/A | italian:N/A | portuguese:legens | spanish:legens | latin:legens
+reader : [Noun]	french:lecteur | german:N/A | italian:N/A | portuguese:legens | spanish:legens | latin:lector, legens
 readers : [Noun]	french:lecteurs | german:N/A | italian:N/A | portuguese:N/A | spanish:N/A | latin:N/A
 readership : [Noun]	french:lecteurs | german:N/A | italian:N/A | portuguese:N/A | spanish:N/A | latin:N/A
 readily : [Adjective]	french:N/A | german:N/A | italian:N/A | portuguese:prompte | spanish:prompte | latin:prompte
 readily : [Adverb]	french:volontiers | german:N/A | italian:N/A | portuguese:facile | spanish:facile | latin:facile
 readiness : [Noun]	french:facilite/ | german:N/A | italian:N/A | portuguese:animus promptus | spanish:animus promptus | latin:animus promptus
-reading : [Noun]	french:releve/ | german:N/A | italian:N/A | portuguese:lectio | spanish:lectio | latin:recitatio
+reading : [Noun]	french:releve/ | german:N/A | italian:N/A | portuguese:lectio | spanish:lectio | latin:lectio, recitatio
 readings : [Noun]	french:lectures | german:N/A | italian:N/A | portuguese:N/A | spanish:N/A | latin:N/A
 readjust : [Verb]	french:rajuster | german:N/A | italian:N/A | portuguese:N/A | spanish:N/A | latin:N/A
 readjusts : [Verb]	french:re/ajuste | german:N/A | italian:N/A | portuguese:N/A | spanish:N/A | latin:N/A
 readout : [Adjective]	french:d'affichage | german:N/A | italian:N/A | portuguese:N/A | spanish:N/A | latin:N/A
 readout : [Noun]	french:affichage | german:N/A | italian:N/A | portuguese:N/A | spanish:N/A | latin:N/A
 readouts : [Noun]	french:affichages | german:N/A | italian:N/A | portuguese:N/A | spanish:N/A | latin:N/A
-reads : [Verb]	french:lit | german:N/A | italian:N/A | portuguese:recita | spanish:recita | latin:recita
-ready : [Adjective]	french:prompt | german:N/A | italian:N/A | portuguese:promptus | spanish:promptus | latin:promptus
+reads : [Verb]	french:lit | german:N/A | italian:N/A | portuguese:recita | spanish:recita | latin:legit, recita
+ready : [Adjective]	french:prompt | german:N/A | italian:N/A | portuguese:promptus | spanish:promptus | latin:paratus, promptus
 reaffirm : [Verb]	french:re/affirmer | german:N/A | italian:N/A | portuguese:N/A | spanish:N/A | latin:N/A
 reaffirms : [Verb]	french:re/affirme | german:N/A | italian:N/A | portuguese:N/A | spanish:N/A | latin:N/A
 reagent : [Noun]	french:re/actif | german:N/A | italian:N/A | portuguese:N/A | spanish:N/A | latin:N/A
-real : [Adjective]	french:vrai | german:N/A | italian:N/A | portuguese:verus | spanish:verus | latin:verus
+real : [Adjective]	french:vrai | german:N/A | italian:N/A | portuguese:verus | spanish:verus | latin:sincerus, verus
 realisable : [Adjective]	french:re/alisable | german:N/A | italian:N/A | portuguese:N/A | spanish:N/A | latin:N/A
 realism : [Noun]	french:re/alisme | german:N/A | italian:N/A | portuguese:veritatem imitari | spanish:veritatem imitari | latin:veritatem imitari
 realist : [Noun]	french:re/aliste | german:N/A | italian:N/A | portuguese:N/A | spanish:N/A | latin:N/A
@@ -5938,35 +5938,35 @@ teammate : [Noun]	french:N/A | german:N/A | italian:compagno di squadra | portug
 teammates : [Noun]	french:N/A | german:N/A | italian:compagni di squadra | portuguese:N/A | spanish:N/A | latin:N/A
 teams : [Noun]	french:N/A | german:N/A | italian:squadre | portuguese:N/A | spanish:N/A | latin:N/A
 teapot : [Noun]	french:N/A | german:N/A | italian:teiera | portuguese:N/A | spanish:N/A | latin:N/A
-tear : [Noun]	french:larme | german:N/A | italian:N/A | portuguese:fletus | spanish:fletus | latin:lacrima
-tear : [Verb]	french:de/chirer | german:N/A | italian:N/A | portuguese:vellere | spanish:vellere | latin:vellere
-teardrop : [Noun]	french:larme | german:Träne, die | italian:N/A | portuguese:lacrima | spanish:lacrima | latin:lacrima
-tearful : [Adjective]	french:tout en pleurs | german:tränenreich | italian:N/A | portuguese:lacrimosus | spanish:lacrimosus | latin:lacrimosus
-tearfully : [Adverb]	french:les larmes aux yeux | german:N/A | italian:N/A | portuguese:multis cum lacrimis | spanish:multis cum lacrimis | latin:multis cum lacrimis
+tear : [Noun]	french:larme | german:N/A | italian:N/A | portuguese:fletus | spanish:fletus | latin:fletus, lacrima
+tear : [Verb]	french:de/chirer | german:N/A | italian:N/A | portuguese:vellere | spanish:vellere | latin:lacerare, laniare, scindere, vellere
+teardrop : [Noun]	french:larme | german:Träne, die | italian:N/A | portuguese:lacrima | spanish:lacrima | latin:fletus, lacrima
+tearful : [Adjective]	french:tout en pleurs | german:tränenreich | italian:N/A | portuguese:lacrimosus | spanish:lacrimosus | latin:flebilis, lacrimans, lacrimosus
+tearfully : [Adverb]	french:les larmes aux yeux | german:N/A | italian:N/A | portuguese:multis cum lacrimis | spanish:multis cum lacrimis | latin:magno cum fletu, multis cum lacrimis
 teargas : [Noun]	french:gaz lacrymoge\ne | german:N/A | italian:N/A | portuguese:N/A | spanish:N/A | latin:N/A
 tearing : [Noun]	french:N/A | german:N/A | italian:N/A | portuguese:scissura | spanish:scissura | latin:scissura
 tearjerker : [Noun]	french:me/lo | german:N/A | italian:N/A | portuguese:N/A | spanish:N/A | latin:N/A
-tearless : [Adjective]	french:sans larmes | german:N/A | italian:N/A | portuguese:sine lacrimis | spanish:sine lacrimis | latin:sine lacrimis
+tearless : [Adjective]	french:sans larmes | german:N/A | italian:N/A | portuguese:sine lacrimis | spanish:sine lacrimis | latin:siccus, sine lacrimis
 tearlessly : [Adverb]	french:N/A | german:N/A | italian:N/A | portuguese:sine lacrimis | spanish:sine lacrimis | latin:sine lacrimis
 tearoom : [Noun]	french:salon de the/ | german:N/A | italian:sala da the\ | portuguese:N/A | spanish:N/A | latin:N/A
-tears : [Noun]	french:larmes | german:Tränen[pl.] | italian:lacrime | portuguese:scissurae | spanish:scissurae | latin:scissurae
-tears : [Verb]	french:N/A | german:N/A | italian:N/A | portuguese:vellit | spanish:vellit | latin:vellit
+tears : [Noun]	french:larmes | german:Tränen[pl.] | italian:lacrime | portuguese:scissurae | spanish:scissurae | latin:lacrimae, scissurae
+tears : [Verb]	french:N/A | german:N/A | italian:N/A | portuguese:vellit | spanish:vellit | latin:lacerat, laniat, vellit
 tearstained : [Adjective]	french:portant des traces de larmes | german:N/A | italian:N/A | portuguese:N/A | spanish:N/A | latin:N/A
 tease : [Noun]	french:taquin | german:N/A | italian:N/A | portuguese:N/A | spanish:N/A | latin:N/A
-tease : [Verb]	french:tourmenter | german:N/A | italian:N/A | portuguese:vexare | spanish:vexare | latin:vexare
+tease : [Verb]	french:tourmenter | german:N/A | italian:N/A | portuguese:vexare | spanish:vexare | latin:fatigare, obtundere, vexare
 teasel : [Noun]	french:carde\re | german:N/A | italian:N/A | portuguese:dipsacus | spanish:dipsacus | latin:dipsacus
 teaser : [Noun]	french:taquin | german:N/A | italian:N/A | portuguese:N/A | spanish:N/A | latin:N/A
 teases : [Noun]	french:taquins | german:N/A | italian:N/A | portuguese:N/A | spanish:N/A | latin:N/A
-teases : [Verb]	french:taquine | german:N/A | italian:N/A | portuguese:vexa | spanish:vexa | latin:vexa
+teases : [Verb]	french:taquine | german:N/A | italian:N/A | portuguese:vexa | spanish:vexa | latin:fatiga, obtundit, vexa
 teasing : [Adjective]	french:railleur | german:N/A | italian:N/A | portuguese:N/A | spanish:N/A | latin:N/A
 teasing : [Noun]	french:taquinerie | german:N/A | italian:N/A | portuguese:N/A | spanish:N/A | latin:N/A
 teasingly : [Adverb]	french:d'un ton railleur | german:N/A | italian:N/A | portuguese:N/A | spanish:N/A | latin:N/A
 teasingly : [Verb]	french:pour taquiner | german:N/A | italian:N/A | portuguese:N/A | spanish:N/A | latin:N/A
 teaspoon : [Noun]	french:cuiller a\ cafe/ | german:Teelöffel, der | italian:N/A | portuguese:N/A | spanish:N/A | latin:N/A
 teaspoonful : [Noun]	french:cuillere/e a\ cafe/ | german:N/A | italian:N/A | portuguese:N/A | spanish:N/A | latin:N/A
-teat : [Noun]	french:trayon | german:N/A | italian:N/A | portuguese:mamma | spanish:mamma | latin:mamma
+teat : [Noun]	french:trayon | german:N/A | italian:N/A | portuguese:mamma | spanish:mamma | latin:mamilla, mamma
 teatime : [Noun]	french:l'heure du the/ | german:N/A | italian:N/A | portuguese:N/A | spanish:N/A | latin:N/A
-teats : [Noun]	french:tettes | german:N/A | italian:N/A | portuguese:mammae | spanish:mammae | latin:mammae
+teats : [Noun]	french:tettes | german:N/A | italian:N/A | portuguese:mammae | spanish:mammae | latin:mamillae, mammae
 teazel : [Noun]	french:N/A | german:N/A | italian:N/A | portuguese:mammae | spanish:mammae | latin:mammae
 technetium : [Noun]	french:N/A | german:N/A | italian:tecnezio | portuguese:N/A | spanish:N/A | latin:N/A
 technical : [Adjective]	french:N/A | german:N/A | italian:tecnico | portuguese:N/A | spanish:N/A | latin:N/A
@@ -6494,19 +6494,19 @@ wed : [Verb]	french:N/A | german:heiraten | italian:N/A | portuguese:N/A | spani
 wedding : [Noun]	french:N/A | german:Heirat | italian:N/A | portuguese:N/A | spanish:N/A | latin:N/A
 weekday : [Noun]	french:N/A | german:N/A | italian:giorno lavorativo ( n.+adj.) | portuguese:N/A | spanish:N/A | latin:N/A
 weekend : [Noun]	french:N/A | german:N/A | italian:festiva | portuguese:N/A | spanish:N/A | latin:N/A
-weep : [Verb]	french:pleurer | german:N/A | italian:piangere | portuguese:plorare | spanish:plorare | latin:plorare
+weep : [Verb]	french:pleurer | german:N/A | italian:piangere | portuguese:plorare | spanish:plorare | latin:flere, lacrimare, lamentari, plorare
 weeping : [Adjective]	french:qui pleure | german:N/A | italian:N/A | portuguese:N/A | spanish:N/A | latin:N/A
-weeping : [Noun]	french:pleurs | german:N/A | italian:N/A | portuguese:ploratus | spanish:ploratus | latin:ploratus
-weeps : [Verb]	french:pleure | german:N/A | italian:N/A | portuguese:plora | spanish:plora | latin:plora
+weeping : [Noun]	french:pleurs | german:N/A | italian:N/A | portuguese:ploratus | spanish:ploratus | latin:fletus, lacrimae, lamentatio, ploratus
+weeps : [Verb]	french:pleure | german:N/A | italian:N/A | portuguese:plora | spanish:plora | latin:fleret, lacrima, plora
 weepy : [Adjective]	french:larmoyant | german:N/A | italian:N/A | portuguese:N/A | spanish:N/A | latin:N/A
 weepy : [Noun]	french:me/lo | german:N/A | italian:N/A | portuguese:N/A | spanish:N/A | latin:N/A
 weevil : [Noun]	french:charanc,on | german:N/A | italian:N/A | portuguese:curculio | spanish:curculio | latin:curculio
 weft : [Noun]	french:trame | german:N/A | italian:N/A | portuguese:N/A | spanish:N/A | latin:N/A
-weigh : [Verb]	french:peser | german:N/A | italian:N/A | portuguese:pensitare | spanish:pensitare | latin:pensitare
+weigh : [Verb]	french:peser | german:N/A | italian:N/A | portuguese:pensitare | spanish:pensitare | latin:examinare, pendere, pensare, pensitare
 weighing : [Noun]	french:pese/e | german:N/A | italian:N/A | portuguese:N/A | spanish:N/A | latin:N/A
 weighings : [Noun]	french:pese/es | german:N/A | italian:N/A | portuguese:N/A | spanish:N/A | latin:N/A
-weighs : [Verb]	french:pe\se | german:N/A | italian:N/A | portuguese:pendit | spanish:pendit | latin:pendit
-weight : [Noun]	french:poids | german:N/A | italian:peso | portuguese:momentum | spanish:momentum | latin:momentum
+weighs : [Verb]	french:pe\se | german:N/A | italian:N/A | portuguese:pendit | spanish:pendit | latin:examinat, pendit
+weight : [Noun]	french:poids | german:N/A | italian:peso | portuguese:momentum | spanish:momentum | latin:gravitus, momentum
 weighted : [Adjective]	french:ponde/re/ | german:N/A | italian:N/A | portuguese:N/A | spanish:N/A | latin:N/A
 weightily : [Adverb]	french:puissamment | german:N/A | italian:N/A | portuguese:N/A | spanish:N/A | latin:N/A
 weighting : [Noun]	french:plombage | german:N/A | italian:N/A | portuguese:N/A | spanish:N/A | latin:N/A
@@ -6515,7 +6515,7 @@ weightlessness : [Noun]	french:apesanteur | german:N/A | italian:N/A | portugues
 weights : [Noun]	french:se/rie de poids | german:N/A | italian:N/A | portuguese:N/A | spanish:N/A | latin:N/A
 weights : [Verb]	french:attache un poids a\ | german:N/A | italian:N/A | portuguese:N/A | spanish:N/A | latin:N/A
 weighty : [Adjective]	french:pesant | german:N/A | italian:N/A | portuguese:gravis | spanish:gravis | latin:gravis
-weir : [Noun]	french:barrage | german:N/A | italian:N/A | portuguese:moles | spanish:moles | latin:moles
+weir : [Noun]	french:barrage | german:N/A | italian:N/A | portuguese:moles | spanish:moles | latin:agger, moles
 weird : [Adjective]	french:e/trange | german:N/A | italian:N/A | portuguese:N/A | spanish:N/A | latin:N/A
 weirdie : [Noun]	french:excentrique | german:N/A | italian:N/A | portuguese:N/A | spanish:N/A | latin:N/A
 weirdies : [Noun]	french:excentriques | german:N/A | italian:N/A | portuguese:N/A | spanish:N/A | latin:N/A
@@ -6524,7 +6524,7 @@ weirdness : [Noun]	french:e/trangete/ inquie/tante | german:N/A | italian:N/A | 
 weirdo : [Noun]	french:excentrique | german:N/A | italian:N/A | portuguese:N/A | spanish:N/A | latin:N/A
 weirdos : [Noun]	french:excentriques | german:N/A | italian:N/A | portuguese:N/A | spanish:N/A | latin:N/A
 weirs : [Noun]	french:barrages | german:N/A | italian:N/A | portuguese:N/A | spanish:N/A | latin:N/A
-welcome : [Adjective]	french:bienvenu | german:N/A | italian:N/A | portuguese:gratus | spanish:gratus | latin:gratus
+welcome : [Adjective]	french:bienvenu | german:N/A | italian:N/A | portuguese:gratus | spanish:gratus | latin:acceptus, commodus, gratus
 welcome : [Noun]	french:bienvenue | german:N/A | italian:N/A | portuguese:salutatio | spanish:salutatio | latin:salutatio
 welcome : [Verb]	french:souhaiter la bienvenue a\ | german:N/A | italian:benvenuto | portuguese:N/A | spanish:N/A | latin:N/A
 weltschmerz : [Noun]	french:N/A | german:Weltschmerz | italian:N/A | portuguese:N/A | spanish:N/A | latin:N/A
