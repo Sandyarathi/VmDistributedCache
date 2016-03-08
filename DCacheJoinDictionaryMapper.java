@@ -6,6 +6,7 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.util.Map;
 import java.util.Arrays;
+import java.util.List;
 import java.util.HashMap;
 
 import org.apache.hadoop.io.Text;
@@ -55,17 +56,31 @@ public class DCacheJoinDictionaryMapper  extends Mapper<Text, Text, Text, Text> 
 				   if(lineSplit.length!=0 && lineSplit.length!=1 ){
 					System.out.println("length:"+lineSplit.length);   
 					String englishWord = lineSplit[0];
-				        String[] splitValue=lineSplit[1].toString().split("\\[");
-	                   	        if(splitValue.length!=0 && splitValue.length!=1 ){
-	                    			String partsOfSpeech = splitValue[1].substring(0,splitValue[1].length()-1);
-	                    			if(valid(partsOfSpeech)){
-	                    				String key= englishWord + " : ["+partsOfSpeech+"]";
-	                           			 String value = language+ ":"+splitValue[0];
-	                           			System.out.println("key: "+key);
+					String partsOfSpeech = lineSplit[1].substring(lineSplit[1].lastIndexOf('[')+1,lineSplit[1].length()-1);
+			        String translations= lineSplit[1].substring(0,lineSplit[1].lastIndexOf('[') );
+			        if(valid(partsOfSpeech)){
+	                    String key= englishWord + " : ["+partsOfSpeech+"]";
+	                    String value = language+ ":"+translations;
+	                    System.out.println("key: "+key);
+	                    System.out.println("Value: "+ value);
+	                    contruct(key, value);
+	                    //translations.put(key,value);
+                	}
+
+			        /*String[] splitValue=lineSplit[1].toString().split("\\[");
+           	        if(splitValue.length!=0 && splitValue.length!=1 ){
+            			String partsOfSpeech = splitValue[1].substring(0,splitValue[1].length()-1);
+            			if(valid(partsOfSpeech)){
+            				String key= englishWord + " : ["+partsOfSpeech+"]";
+                   			 String value = language+ ":"+splitValue[0];
+                   			System.out.println("key: "+key);
 							System.out.println("value: "+value);
-							 translations.put(key, value);
-	                    			}
-	                   		 }
+				 			translations.put(key, value);
+            			}
+           		 	}
+                   	*/
+
+
 		 		 }
 			   }
 		   }
@@ -75,9 +90,20 @@ public class DCacheJoinDictionaryMapper  extends Mapper<Text, Text, Text, Text> 
 		  
 		 brReader.close();
 	}
+	private void construct(String key, String value){
+		if(translations.containsKey(key){
+			String currentValue = translations.get(key);
+			currentValue+=", ";
+			currentValue+=value;
+			translations.put(key, currentValue);
+		}
+		translations.put(key, value);
+		
+
+	}
 			
    private boolean valid(String partsOfSpeech) {
-		String[] words = {"Noun", "Pronoun", "Verb", "Adverb", "Adjective", "Preposition", "Article", "Conjunction"};  
+		String[] words = {"Noun", "Pronoun", "Verb", "Adverb", "Adjective", "Preposition", "Article", "Conjunction", "interjection"};  
 	    return (Arrays.asList(words).contains(partsOfSpeech));
 	}
 	
@@ -86,7 +112,7 @@ public class DCacheJoinDictionaryMapper  extends Mapper<Text, Text, Text, Text> 
 		String appendValue=null;
 		System.out.println("Searching for key: "+key);
 		System.out.println("And value: "+value);	
-	       	if (translations.containsKey(key.toString())){
+       	if (translations.containsKey(key.toString())){
 			System.out.println("match");
 			appendValue= value.toString()+" | "+translations.get(key.toString());
 			System.out.println("append Value"+appendValue);
@@ -97,6 +123,6 @@ public class DCacheJoinDictionaryMapper  extends Mapper<Text, Text, Text, Text> 
 		}	
 		context.write(new Text(key), new Text(appendValue));
 			
-	      }
+	}
 
-   }
+}
