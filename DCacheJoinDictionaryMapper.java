@@ -91,7 +91,7 @@ public class DCacheJoinDictionaryMapper  extends Mapper<Text, Text, Text, Text> 
 		 brReader.close();
 	}
 	private void construct(String key, String value){
-		if(translations.containsKey(key){
+		if(translations.containsKey(key)){
 			String currentValue = translations.get(key);
 			currentValue+=", ";
 			currentValue+=value;
